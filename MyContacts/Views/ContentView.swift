@@ -16,12 +16,12 @@ struct ContentView: View {
             ContactListView(persons: persons)
                 .tabItem {
                     Image(systemName: "person.2.fill")
-                    Text("Contacts")
+                    Text("Контакты")
                 }
             NumbersListView(persons: persons)
                 .tabItem {
                     Image(systemName: "phone.fill")
-                    Text("Numbers")
+                    Text("Номера")
                 }
         }
     }
